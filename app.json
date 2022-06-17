@@ -12,18 +12,19 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://exp.host/@basit3407/testing_time_picker/index.exp?release-channel=staging&sdkVersion=45.0.0"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "url": "https://exp.host/@basit3407/testing_time_picker/index.exp?release-channel=staging&sdkVersion=45.0.0"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.basit3407.testing_time_picker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
