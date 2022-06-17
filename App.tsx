@@ -44,6 +44,7 @@ const Example = () => {
       <Button title="Show Date Picker" onPress={showDatePicker} />
       <DateTimePickerModal
         isVisible={isDatePickerVisible}
+        maximumDate={new Date()}
         mode="time"
         onConfirm={handleConfirm}
         onCancel={hideDatePicker}
